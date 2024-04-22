@@ -1,0 +1,18 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: sai
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+  jpa:
+    hibernate: 
+      ddl-auto: update
+    show-sql: true    
+
+   
+reg-app: 
+  messages:
+    success: CASEWORKER ACCOUNT SUCCESSFULLY CREATED...!!!
+    fail: CASEWORKER ACCOUNT NOT CREATED...!!!
